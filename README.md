@@ -40,3 +40,71 @@ Website
     </footer>
 </body>
 </html>
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #005580;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: #e0f7fa;
+    text-align: center;
+    padding: 3em 1em 2em 1em;
+}
+
+.hero h2 {
+    margin-top: 0;
+    color: #006064;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.8em 2em;
+    background: #005580;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #00394d;
+}
+
+main section {
+    margin: 2em auto;
+    max-width: 700px;
+    background: #fff;
+    padding: 2em 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0;
+    background: #eee;
+    margin-top: 2em;
+}
